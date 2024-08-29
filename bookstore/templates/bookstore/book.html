@@ -1,0 +1,12 @@
+{% extends 'bookstore/base.html' %}
+
+{% block title %}
+    {{ book.title|truncatechars:15 }}
+{% endblock %}
+
+{% block content %}
+    <div id="anbook">
+ 
+    </div>
+    <input type="hidden" value="{{ request.user.username }}" id="user">
+{% endblock %}

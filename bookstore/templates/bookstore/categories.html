@@ -1,0 +1,14 @@
+{% extends 'bookstore/base.html' %}
+
+{% block title %}
+    Categories
+{% endblock %}
+
+{% block content %}
+    <h1>Categories</h1>
+    {% for category in categories %}
+        <div id="categories" class="alert alert-primary" role="alert">
+            <a href="{% url 'category' category %}">{{ category }}</a>
+        </div>
+    {% endfor %}
+{% endblock %}
