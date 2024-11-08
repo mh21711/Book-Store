@@ -1,0 +1,154 @@
+
+#container {
+    padding: 20px 10px;
+}
+
+h1 {
+    margin-bottom: 20px !important;
+}
+
+h4 {
+    margin-bottom: 20px !important;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+#books-container,
+#books-container-cart,
+#books-container-favorites,
+#books-container-category,
+#books_container,
+#books-container-search {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 10px;
+}
+
+#book {
+    text-align: center;
+}
+
+#book img {
+    width: 100%;
+    height: 300px;
+}
+
+#book a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#book a:hover {
+    text-decoration: underline;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+#anbook #buttons {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: flex-start;
+}
+
+#anbook #buttons span {
+    margin-right: 20px;
+}
+
+#anbook img {
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+#anbook h1,
+#anbook h2,
+#anbook h3,
+#anbook h5 {
+    margin-bottom: 20px;
+}
+
+#anbuttons {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#anbuttons button {
+    margin-right: 20px;
+}
+
+#text,
+#text-1 {
+    resize: vertical;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+#text + button {
+    display: block;
+}
+
+.like,
+#like {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-right: 20px;
+}
+
+.like button,
+#like button {
+    margin-right: 5px;
+}
+
+.like span,
+#like span {
+    font-size: 20px;
+}
+
+.like i,
+#like i {
+    color: red;
+}
+
+button[id="UnCart"],
+button[value="UnCart"] {
+    font-size: 13px;
+}
+
+form > p {
+    margin-top: 20px;
+}
+
+.review {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #eee;
+    border-radius: 10px;
+}
+
+#categories a {
+    text-decoration: none;
+    color: #052c65;
+}
+
+#categories a:hover {
+    text-decoration: underline;
+}
+
+.edit {
+    margin-top: 20px;
+}
+
+.edit button {
+    margin-right: 20px;
+}
